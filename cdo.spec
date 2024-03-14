@@ -1,10 +1,10 @@
 Name:           cdo
-Version:        2.3.0
+Version:        2.4.0
 Release:        1
 Summary:        Climate Data Operators
 License:        GPLv2
 URL:            https://code.zmaw.de/projects/cdo
-Source:         https://code.mpimet.mpg.de/attachments/download/29019/cdo-%{version}.tar.gz
+Source:         https://code.mpimet.mpg.de/attachments/download/29313/cdo-%{version}.tar.gz 
 BuildRequires:  python3
 BuildRequires:  libtool
 BuildRequires:  gcc-c++
@@ -51,6 +51,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_prefix}/bin/cdo
 
 %changelog
++ Wed Mar 14 2024 - Götz Grimmer <goetz-dev@web.de> - 2.4.0-1
+- Upstream update
+
 + Wed Oct 25 2023 - Götz Grimmer <goetz-dev@web.de> - 2.3.0-1
 - Upstream update
 
